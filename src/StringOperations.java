@@ -21,7 +21,7 @@ public class StringOperations {
 
         System.out.println("Hello " + name + "! \nYour full name's length is: " + length);
         System.out.print("Since the length of your name is: " + length + ", enter any number between 0 to " + length + " to get a character from your name '" + name + "': ");
-        guess= scanner.nextLine();
+        guess = scanner.nextLine();
 
         guessNumber = Integer.parseInt(guess);
 

@@ -22,14 +22,14 @@ public class StringOperationsPt2 {
 
             int length = name.length();
             int lengthRange = length - 1;
-            System.out.println("The length of '" + name + "' is: " + length);
+            System.out.println("The length of '" + name + "' is: " + lengthRange);
 
             // 4. get the index (position) of any given char using .charAt()
             /*
                 To spicy it up, I will use scanner to ask user to provide a given index.
                 Then convert input to int.
              */
-            System.out.print("Since the length of " + name + " is " + length + ", enter numbers between 0 and " + lengthRange + ": ");
+            System.out.print("Since the length of " + name + " is " + lengthRange + ", enter numbers between 0 and " + lengthRange + ": ");
 
             String userIndexAsString = scanner.nextLine();
             // Convert userIndexAsString to int using the Integer.ParseInt() method

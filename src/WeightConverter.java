@@ -12,7 +12,7 @@ public class WeightConverter {
         // output information
         System.out.println("WEIGHT CONVERTER PROGRAM!");
         System.out.println("1: Convert from pounds (lbs) to kilograms (kgs)");
-        System.out.println("1: Convert from kilograms (kgs) to pounds (lbs)");
+        System.out.println("2: Convert from kilograms (kgs) to pounds (lbs)");
         System.out.print("--------------------------\n");
 
         // collect user choice
